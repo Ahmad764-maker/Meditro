@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tajawal", sans-serif;
+  background-color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color: #1f2278;
+  --orange-color: #f17732;
+  --btn-color: #565acf;
+}
+section,
+footer,
+header {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0;
+  margin-top: 50px;
+}
+a {
+  text-decoration: none !important;
+}
+span {
+  display: block;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+button {
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+}
+p {
+  line-height: 28px;
+}
+input {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 5px 15px;
+  color: #333;
+  font-size: 16px;
+}
+.borders {
+  border: 2px solid red;
+}
+.scroll2Top {
+  border: 1px solid var(--orange-color);
+  color: #fff;
+  background-color: var(--orange-color);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 3%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.scroll2Top:hover {
+  background-color: #f1783287;
+  border: 1px solid var(--orange-color);
+}
+@media (max-width: 930px) {
+  .scroll2Top {
+    opacity: 0.6;
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}

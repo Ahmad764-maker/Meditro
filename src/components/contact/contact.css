@@ -1,0 +1,74 @@
+.contact {
+  margin-top: 50px;
+  position: relative;
+}
+.contact img.circ {
+  position: absolute;
+  right: 40%;
+  top: 20%;
+  animation: mover 2s infinite alternate;
+}
+.contact h5 {
+  color: var(--orange-color);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 1000;
+  margin-bottom: 50px;
+  /* background-image: url(/public/imgs/a.png); */
+  /* width: 160px; */
+}
+.contact .row .left form {
+  display: flex;
+  flex-direction: column;
+}
+.contact .row .left form .form-label {
+  font-weight: 500;
+  font-size: 20px;
+}
+.contact .row .left form .form-control {
+  height: 50px;
+}
+
+.contact .row .left form button {
+  background-color: var(--orange-color);
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid var(--orange-color);
+}
+.contact .row .left form .success {
+  display: flex;
+}
+.contact .row .left form .success p {
+  color: #69b190;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.contact .row .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .row .right .lottie {
+  /* margin-left: 100px; */
+  transform: translateX(11%);
+}
+
+@media (max-width: 991px) {
+  .contact .row .right {
+    display: none;
+  }
+  .contact .row .left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 770px) {
+  .contact img.circ {
+    display: none;
+  }
+}
